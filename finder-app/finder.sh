@@ -17,4 +17,5 @@ else
 
         Y=$(grep -r $searchstr $filesdir | wc -l)
         echo "The number of files are $X and the number of matching lines are $Y"
+	exit 0
 fi
